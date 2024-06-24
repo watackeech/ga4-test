@@ -14,7 +14,7 @@ export default function InputPage() {
     console.log(number);
     sendGTMEvent({
       event: "button_1",
-      label: number,
+      number: number,
     });
   };
 
